@@ -1,0 +1,9 @@
+[package]
+name = "ope"
+version = "0.1.0"
+authors = ["Ben <husobee> Huson <husobee@e-ie.io>"]
+
+[dependencies]
+dist_variate = { path = "../dist_variate" }
+rand = "0.5"
+rust-crypto = "^0.2"
